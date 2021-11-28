@@ -1,0 +1,181 @@
+.button-delivery {
+    padding: 9px 22px;
+    max-width: 149px;
+    width: 100%;
+}
+
+
+
+.banner-title {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 44px;
+    color: #1E0606;
+    margin: 0px;
+}
+
+.banner-container {
+    display: flex;
+}
+
+.banner-img {
+    margin-top: -89px;
+    margin-right: 99px;
+}
+
+.banner-menu {
+    margin-top: 89px;
+    margin-left: 133px;
+}
+
+/* CATEGORY*/
+.category-title {
+font-family: Montserrat;
+font-weight: bold;
+font-size: 38px;
+line-height: 46px;
+text-transform: uppercase;
+color: #1E0606;
+text-align: left;
+margin: 0 0 30px;
+}
+
+.category-list {
+    display: flex;
+    margin: 0 -10px;
+    flex-wrap: wrap;
+
+}
+
+
+.vector {
+ margin: 33px 0 94px;
+ display: flex;
+}
+
+.button-vector {
+    width: 37px;
+    height: 37px;
+    margin-right: 6px;
+    border: 0px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.category-text {
+    margin-left: 20px;
+    max-width: 50%;
+    margin-top: -5px;
+}
+
+/*DELIVERY*/
+
+.delivery {
+    display: flex;
+    margin-bottom: 90px;
+}
+
+.deliveri-info {
+    margin-left: 121px;
+    height: 480px;
+    position: relative;
+}
+
+.deliveri-info li {
+    margin: 22px 0 22px;
+}
+
+.deliveri-info::before {
+    content: '';
+    display: block;
+    width: 326px;
+    height: 55px;
+    background: rgba(112, 187, 220, 0.2);
+    position: absolute;
+    top: 96px;
+    left: -61px;
+    z-index: -1;
+}
+
+.deliveri-info h2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #1E0606;
+}
+
+.delivery-href1 {
+    font-family: Crimson Text;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 32px;
+    color: #1E0606;
+}
+
+.delivery-href2 {
+    font-family: Crimson Text;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 32px;
+    color: #1E0606;
+    margin: 0px;
+    margin-top: 10px;
+}
+
+.delivery-text {
+    margin-bottom: 26px;
+}
+
+/*BRANDS*/
+
+.brands-list {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 90px;
+}
+
+.design-contact {
+    display: flex;
+    margin-bottom: 155px;
+}
+
+.design-contact h2 {
+    margin: -25px 0 0;
+}
+
+.design {
+    background-color:#E1F0F7; ;
+    width: 543px;
+    height: 228px;
+    margin-right: 57px;
+    padding-left: 30px;
+}
+
+.design p {
+    margin: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contacts {
+    width: 543px;
+    height: 209px;
+    background: #E1F0F7;
+    margin-right: 57px;
+    padding-left: 30px;
+}
+
+.contacts p {
+    margin: 0px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+

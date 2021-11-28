@@ -1,0 +1,10 @@
+.contact-main {
+    display: flex;
+    margin-bottom: 60px;
+}
+
+
+.support p {
+    margin: 0;
+    margin-bottom: 20px;
+}

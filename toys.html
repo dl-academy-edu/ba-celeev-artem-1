@@ -10,8 +10,8 @@
     <link rel="stylesheet" href="/css/normalize.css">
     <link rel="stylesheet" href="/css/common.min.css">
     <link rel="stylesheet" href="/css/style.min.css">
-    <link rel="stylesheet" href="/css/contact.min.css">
-    <title>Contact Us</title>
+    <link rel="stylesheet" href="/css/toys.min.css">
+    <title>Toys</title>
 </head>
 <body>
     <header class="header container">
@@ -41,57 +41,170 @@
         <a class="contact-us" href="contact.html">Contact  Us</a>
     </header>
     <main>
-        <section class="container">
-            <h1 class="title">Contact us</h1>
+        <section>
+            <div class="container">
+                <h1 class="title">Toy for kids</h1>
                 <div class="title-top">
-                    <a class="delivery-href2" href="/index.html">Home</a>
-                    <a href="#">Contact us</a>
+                    <a href="#">Home</a>
+                    <a class="toys-href" href="#">Catalog</a>
+                    <a href="#">Toys</a>
                 </div>
-                <div class="contact-main">
-                    <form action="#" method="POST" class="contact-form">
-                        <fieldset>
-                            <div class="label-wrapper">
-                                <label for="input-name" class="label-contact">Name</label>                    
-                                <input type="text" id="input-name" placeholder="Ivan Ivanov">
+            </div>
+                        <div class="filter-color name-filter">
+                            <div class="container filter">
+                                <div class="range-view">    
+                                    <label class="label-toy name-filter" for="range-cost">Cost</label>
+                                    <input type="range" id="range-cost">                   
+                                    <div class="number-range">
+                                        <p>0</p>
+                                        <p>500</p>
+                                    </div>
+                                </div>                                                    
+                                <fieldset>
+                                    <legend class="name-filter">Color</legend>
+                                    <ul class="undotted checkbox-list">
+                                        <li>
+                                            <input type="checkbox" name="checkbox-black" id="checkbox-black" class="checkbox-input">
+                                            <label class="checkbox-label" for="checkbox-black">Black</label>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" name="checkbox-blue" id="checkbox-blue" class="checkbox-input">
+                                            <label class="checkbox-label" for="checkbox-blue">Blue</label>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" name="checkbox-green" id="checkbox-green" class="checkbox-input">
+                                            <label class="checkbox-label" for="checkbox-green">Green</label>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" name="checkbox-white" id="checkbox-white" class="checkbox-input">
+                                            <label class="checkbox-label" for="checkbox-white">White</label>
+                                        </li>
+                                    </ul>
+                                </fieldset>
+                                <fieldset>
+                                    <legend class="name-filter">Delivery</legend>
+                                    <ul class="undotted radio-list">
+                                        <li>
+                                            <input type="radio" name="delivery" id="delivery" class="radio-input">
+                                            <label class="radio-label" for="delivery">Free shipping</label>
+                                        </li>
+                                        <li>
+                                            <input type="radio" name="delivery" id="delivery-fast" class="radio-input">
+                                            <label class="radio-label" for="delivery-fast">Fast shipping</label>
+                                        </li>
+                                    </ul>
+                                </fieldset>
+                                <fieldset>
+                                    <legend class="name-filter">Amount</legend>
+                                    <ul class="undotted radio-amount">
+                                        <li class="radio-group-item">
+                                            <input type="radio" name="delivery" id="amount1">
+                                            <label for="amount1">05-10</label>
+                                        </li>
+                                        <li class="radio-group-item">
+                                            <input type="radio" name="delivery" id="amount2">
+                                            <label for="amount2">10-20</label>
+                                        </li>
+                                        <li >
+                                            <input type="radio" name="delivery" id="amount3">
+                                            <label for="amount3">20-50</label>
+                                        </li>
+                                    </ul>
+                                </fieldset>
+                                <button class="button-submit button" type="submit">Apply</button>
                             </div>
                             
-                            <div class="field-centr">
-                                <div class="label-wrapper">
-                                    <label for="input-phone" class="label-contact">Phone</label>
-                                    <input type="tel" id="input-phone">
-                                </div>
-                                <div class="label-wrapper">
-                                    <label for="input-email" class="label-contact">E-mail</label>
-                                    <input type="email" id="input-email" required>
-                                </div>
-                            </div>
-                            
-                        </fieldset>
-                        <div class="label-wrapper">
-                            <label for="text-message" class="label-contact">Message</label>
-                            <textarea cols="20" rows="8" id="text-message"></textarea>
                         </div>
-                        
-                        <fieldset class="checkbox">
-                            <input type="checkbox" name="checkbox-1" id="checkbox-1" class="checkbox-input">
-                            <label for="checkbox-1" class="label-contact checkbox-label">By clicking on the button, you consent to the processing of your personal data</label>
-                        </fieldset>
-                        <button class="button button-contact" type="submit">Submit</button>
-                        
-                    </form>
-                    <article class="support">
-                        <h3 class="hidden">support </h3>
-                        <p>Our support team are on-hand to assist with any issues you are experiencing.</p>
-    
-                        <p>Please use the form to contact us with your needs. Send us a message and we'll respond as soon as possible.</p>
-    
-                        <span>An expert is waiting to help you!</span>
-                    </article>
-                </div>
-                
+                        <ul class="undotted toy-item container">
+                            <li class="learn-more">
+                                <a href="#">
+                                    <img src="img/toy1.png" alt="" width="380" height="385">  
+                                    <p class="name-item">SHARKY BEAN BAG CHAIR COVER</p>                                 
+                                </a>
+                                <p class="price-item">$60.00 USD</p>
+                            </li>
+                            <li class="learn-more">
+                                <a href="#">
+                                    <img src="img/toy2.png" alt="" width="380" height="385">
+                                    <p class="name-item">BRASS DECO FRAMES</p>
+                                </a>
+                                <p class="price-item">$66.00 USD</p>
+                            </li>
+                            <li class="learn-more">
+                                <a href="#">
+                                    <img src="img/toy3.png" alt="" width="380" height="385">
+                                    <p class="name-item">CIBO FULL APRON</p>
+                                    </a>
+                                <p class="price-item">$60.00 USD</p>
+                            </li>
+                            <li class="learn-more">
+                                <a href="#">
+                                    <img src="img/toy4.png" alt="" width="380" height="385">
+                                    <p class="name-item">GATCHA GATCHA GUMBALL MACHINE</p>
+                                </a>
+                                <p class="price-item">$56.00 USD</p>
+                            </li>
+                            <li class="learn-more">
+                                <a href="#">
+                                    <img src="img/toy5.png" alt="" width="380" height="385">
+                                    <p class="name-item">CHRISTMAS ADVENT SCENTED CANDLE</p>  
+                                </a>
+                                <p class="price-item">$29.00 USD</p>
+                            </li>
+                            <li class="learn-more">
+                                <a href="">
+                                    <img src="img/toy6.png" alt="" width="380" height="385">
+                                    <p class="name-item">TANGLE SPINNING TEA LIGHT</p>                                                  
+                                </a>
+                                <p class="price-item">$56.00 USD</p>  
+                            </li>
+                        </ul>
+                        <ul class="undotted page-number container">
+                            <li>
+                                <a href="#">
+                                    <svg width="18" height="30" viewBox="0 0 18 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M16 2L3 15L16 28" stroke="#1E0606" stroke-opacity="0.12" stroke-width="4"/>
+                                        </svg>                                
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <svg width="5" height="12" viewBox="0 0 5 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M4.944 0.799999V12H2.352V2.88H0.112V0.799999H4.944Z" fill="#C29974"/>
+                                        </svg>                                    
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <svg width="9" height="12" viewBox="0 0 9 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8.992 9.888V12H0.528V10.32L4.848 6.24C5.30667 5.80267 5.616 5.42933 5.776 5.12C5.936 4.8 6.016 4.48533 6.016 4.176C6.016 3.728 5.86133 3.38667 5.552 3.152C5.25333 2.90667 4.81067 2.784 4.224 2.784C3.73333 2.784 3.29067 2.88 2.896 3.072C2.50133 3.25333 2.17067 3.53067 1.904 3.904L0.016 2.688C0.453333 2.03733 1.056 1.53067 1.824 1.168C2.592 0.794666 3.472 0.608 4.464 0.608C5.296 0.608 6.02133 0.746666 6.64 1.024C7.26933 1.29067 7.75467 1.67467 8.096 2.176C8.448 2.66667 8.624 3.248 8.624 3.92C8.624 4.528 8.496 5.09867 8.24 5.632C7.984 6.16533 7.488 6.77333 6.752 7.456L4.176 9.888H8.992Z" fill="#1E0606"/>
+                                        </svg>                                                                    
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <svg width="10" height="13" viewBox="0 0 10 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M6.856 5.36C7.83733 5.52 8.58933 5.888 9.112 6.464C9.63467 7.02933 9.896 7.73333 9.896 8.576C9.896 9.22667 9.72533 9.82933 9.384 10.384C9.04267 10.928 8.52 11.3653 7.816 11.696C7.12267 12.0267 6.26933 12.192 5.256 12.192C4.46667 12.192 3.688 12.0907 2.92 11.888C2.16267 11.6747 1.51733 11.376 0.984 10.992L1.992 9.008C2.41867 9.328 2.90933 9.57867 3.464 9.76C4.02933 9.93067 4.60533 10.016 5.192 10.016C5.84267 10.016 6.35467 9.89333 6.728 9.648C7.10133 9.392 7.288 9.03467 7.288 8.576C7.288 7.65867 6.58933 7.2 5.192 7.2H4.008V5.488L6.312 2.88H1.544V0.799999H9.384V2.48L6.856 5.36Z" fill="#1E0606"/>
+                                        </svg>                                                                    
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <svg width="11" height="12" viewBox="0 0 11 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M10.88 9.648H9.056V12H6.528V9.648H0.496V7.904L5.776 0.799999H8.496L3.6 7.536H6.608V5.44H9.056V7.536H10.88V9.648Z" fill="#1E0606"/>
+                                        </svg>                                                                    
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <svg width="18" height="30" viewBox="0 0 18 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M2 2L15 15L2 28" stroke="#1E0606" stroke-opacity="0.12" stroke-width="4"/>
+                                        </svg>                                                                    
+                                </a>
+                            </li>
+                        </ul>
         </section>
     </main>
-    
     <footer class="footer">
         <div class="container line">
             <div class="navigation">
@@ -206,6 +319,6 @@
             </div>  
         </div>  
     </footer>
-
+    
 </body>
 </html>
