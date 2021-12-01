@@ -30,21 +30,20 @@ input[type=checkbox]:disabled .checkbox-label::before {
     opacity: .7;
 }
 
-span {
-    font-family: Montserrat;
-    font-weight: 600;
-    font-size: 26px;
-    line-height: 34px;
-    text-transform: uppercase;
-    color: #C29974;
 
-}
 legend {
     font-weight: bold;
     color: #1E0606;
 }
 
-
+span {
+    font-family: Crimson Text;
+    font-style: italic;
+    font-size: 20px;
+    line-height: 25px;
+    opacity: 0.5;
+    pointer-events: none;
+}
 
 .button {
     background: #000000;
@@ -227,6 +226,13 @@ legend {
     opacity: 50%;
 }
 
+.pagination li a {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
 
 /*FOOTER*/
 
@@ -253,6 +259,15 @@ legend {
     margin-bottom: 52px;
 }
 
+.footer h3::before {
+    content: '';
+    width: 380px;
+    height: 1px;
+    background: #666666;
+    position: absolute;
+    margin-top: 45px;
+}
+
 .footer a {
     color: #FFFFFF;
     display: inline-block;
@@ -265,20 +280,18 @@ legend {
 }
 
 
-.navigation::before {
-    content: '';
-    width: 380px;
-    height: 1px;
-    background: #666666;
-    position: absolute;
-    margin: 145px 0 409px;
-}
-
 .company-rating {
     display: flex;
     margin-top: 52px;
     margin-bottom: 100px;
 }
+
+.company-rating ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
 
 .company-rating p {
     margin-right: 25px;
@@ -297,21 +310,9 @@ legend {
     display: flex;
 }
 
-.customer::before {
-    content: '';
-    width: 380px;
-    height: 1px;
-    background: #666666;
-    position: absolute;
-    margin: 145px auto;
-}
 
-.customer {
-    margin-right: -75px;
-}
-
-.customer p {
-    padding-top: 52px;
+.connect {
+    margin-left: -60px;
 }
 
 .connect ul {
@@ -322,13 +323,9 @@ legend {
     color: #A2A2A2;
 }
 
-.connect::before {
-    content: '';
-    width: 380px;
-    height: 1px;
-    background: #666666;
-    position: absolute;
-    margin: 145px auto;
+.connect li {
+    margin-right: 10px;
+    margin-bottom: 157px;
 }
 
 .button-submit {
@@ -353,10 +350,7 @@ legend {
     display: flex;
 }
 
-.connect li {
-    margin-right: 10px;
-    margin-bottom: 157px;
-}
+
 
 
 .title-top {
@@ -500,6 +494,13 @@ legend {
         color: #C29974;
     }
 
+    .company-rating ul {
+        flex-direction: row-reverse;
+    }
+
+    .company-rating:hover p {
+        color: #C29974
+    }
 
     .blog > ul {
         display: flex;
@@ -508,13 +509,7 @@ legend {
         margin-bottom: 63px;
     }
     
-    .blog > ul li:first-child {
-        margin-right: 25%;
-    }
     
-    .blog > ul li:last-child {
-        margin-left: 25%;
-    }
     
 
     fieldset {
@@ -658,6 +653,10 @@ legend {
 
     .text-hover:active {
         opacity: 20%;
+    }
+
+    .text-hover:last-child {
+        margin-bottom: 52px;
     }
 
     .social:hover {

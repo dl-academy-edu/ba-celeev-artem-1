@@ -4,6 +4,18 @@
     width: 100%;
 }
 
+.banner{
+    background: #EEE4DB;
+    height: 372px;
+    margin-bottom: 129px;
+}
+.banner-text {
+    font-family: Crimson Text;
+    font-style: italic;
+    font-size: 20px;
+    line-height: 25px;
+    color: #1E0606;
+}
 
 
 .banner-title {
@@ -152,7 +164,7 @@ margin: 0 0 30px;
 }
 
 .design {
-    background-color:#E1F0F7; ;
+    background-color:#E1F0F7;
     width: 543px;
     height: 228px;
     margin-right: 57px;
